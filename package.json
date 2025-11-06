@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "iseseisevtöö",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BirgitSiPi/sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BirgitSiPi/sass/issues"
+  },
+  "homepage": "https://github.com/BirgitSiPi/sass#readme",
+  "devDependencies": {
+    "sass": "^1.93.3"
+  }
+}
