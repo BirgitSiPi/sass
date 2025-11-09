@@ -64,4 +64,23 @@ body {
   color: white;
 }
 
+.header {
+  /* addition */
+  font-size: 6px;
+  /* substraction */
+  height: 75%;
+}
+
+/* multi */
+.multi {
+  width: 100%;
+  /* division */
+  height: 6px;
+}
+
+p::before {
+  content: "I am a string with quate";
+  font-family: cursiveserif;
+}
+
 /*# sourceMappingURL=style.css.map */
