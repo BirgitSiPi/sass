@@ -4,14 +4,15 @@
   "description": "iseseisevtöö",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch sass/index.scss css/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BirgitSiPi/sass.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Birgit Sinisalu Pihlak",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BirgitSiPi/sass/issues"
@@ -19,5 +20,21 @@
   "homepage": "https://github.com/BirgitSiPi/sass#readme",
   "devDependencies": {
     "sass": "^1.93.3"
+  },
+  "dependencies": {
+    "braces": "^3.0.3",
+    "chokidar": "^4.0.3",
+    "detect-libc": "^1.0.3",
+    "fill-range": "^7.1.1",
+    "immutable": "^5.1.4",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "micromatch": "^4.0.8",
+    "node-addon-api": "^7.1.1",
+    "picomatch": "^2.3.1",
+    "readdirp": "^4.1.2",
+    "source-map-js": "^1.2.1",
+    "to-regex-range": "^5.0.1"
   }
 }
