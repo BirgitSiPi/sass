@@ -1,3 +1,5 @@
+@import "default";
+
 $primary-color: tomato;
 $primary-font: sans-serif, "cursive ";
 
@@ -21,5 +23,7 @@ body {
     }
   }
 }
+
+// Partials
 
 // DRY
